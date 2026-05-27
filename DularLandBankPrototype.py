@@ -11,7 +11,7 @@ def resource_path(relative_path):
     try:
         base_path = sys._MEIPASS
     except Exception:
-        base_path = os.path.abspath(".")
+        base_path = os.path.dirname(os.path.abspath(__file__))
     return os.path.join(base_path, relative_path)
 
 #Pyrebase setup config thing
@@ -162,6 +162,7 @@ for screen in home_screen, check_request_id_status_screen, login_screen, signup_
 ctk.CTkLabel(home_screen, image = App_icon,text = "", font = ("Arial", 30)).pack(pady = 20)
 ctk.CTkButton(home_screen, text = "Login", font = ("Arial", 20), width = 400, height = 50, corner_radius = 12, command = lambda: show_screen(login_screen)).pack(pady = (15, 15))
 ctk.CTkButton(home_screen, text = "Sign Up", font = ("Arial", 20), width = 400, height = 50, corner_radius = 12, command = lambda: show_screen(signup_screen)).pack(pady = (15, 15))
+ctk.CTkLabel(home_screen, text = "Don't have an account? Press Sign Up! Press Login to access an existing account!", font = ("Arial", 16)).pack(pady = (15, 0))
 ctk.CTkButton(logged_in_screen, text = "Logout", font = ("Arial", 20), width = 400, height = 50, corner_radius = 12, command = lambda: logout()).pack(pady = 20, expand = True)
    
 #MAGIC

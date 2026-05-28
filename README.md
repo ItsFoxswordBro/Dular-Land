@@ -20,7 +20,7 @@
   libraries in the requirements.txt(if you are going to download the source code, instructions are below, under subheading: For Other Operating Systems or to directly run the source code:")
 
 # How To Directly Download: 
-  Download the latest release for Windows from the  **releases**  section [here](https://github.com/Foxword7/Dular-Land/releases/tag/Windows_Only)
+  Download the latest release for Windows from the **releases**  section, for the latest release link [click here](https://github.com/ItsFoxswordBro/Dular-Land-Bank/releases/tag/v0.1.1)
 
 # For Other Operating Systems or to directly run the source code: 
 If you want to run the source code directly or are on MacOS/Linux then download the source code/project as a zip file and extract it, then run "python3 -m pip install -r requirements.txt" to download the required libraries or you can also download them manually(this works on Windows as well)

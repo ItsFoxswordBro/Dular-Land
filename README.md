@@ -17,7 +17,7 @@
   run this on bash: "source .venv/bin/activate"
   **On Windows:**
   run this on command prompt: ".venv\Scripts\activate"
-  libraries in the requirements.txt(if you are going to download the source code, instructions are below, under subheading: For Other Operating Systems or to directly run the source code:"
+  libraries in the requirements.txt(if you are going to download the source code, instructions are below, under subheading: For Other Operating Systems or to directly run the source code:")
 
 # How To Directly Download: 
   Download the latest release for Windows from the  **releases**  section [here](https://github.com/Foxword7/Dular-Land/releases/tag/Windows_Only)

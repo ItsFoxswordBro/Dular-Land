@@ -1,5 +1,5 @@
 # Dular-Land:
-  The Official Github Repository of Dular Land by The Head of the Economic Department of Dular Land
+  The Official Github Repository of Dular Land's Bank by The Head of the Economic Department of Dular Land
 
 # _DISCLAIMER:_
   I am a beginner at coding so the code may not reflect the best industry practices or may just be downright bad. I apologize for this so
